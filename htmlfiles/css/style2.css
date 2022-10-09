@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    font-style: oblique;
+}
+h2{
+    
+    
+}
+button{
+    
+    width: max-content;
+    text-align: left;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+p{
+    font-size: large;
+    font-weight: bold;
+}
+td{
+    width: 25%;
+    text-align: center;
+}
+b{
+    color: brown;
+}
+u{
+    color: brown;
+}
