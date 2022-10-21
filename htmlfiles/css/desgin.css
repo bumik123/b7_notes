@@ -35,13 +35,14 @@ header{
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  border: solid 2px;
+  border: solid 1px;
   background-color: #04AA6D;
   color: white;
 }
 td{
   background: rgb(238,174,202);
 background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(176,233,148,1) 100%);
+style="max-width: 100%;max-height: 100%;"
 }
 .variable p{
     color: black;
