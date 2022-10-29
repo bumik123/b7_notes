@@ -1,4 +1,4 @@
-body{
+textarea,body{
     background-image: url(bg.png);
     background-size: cover;
     background-position: center;
@@ -104,4 +104,10 @@ h1{
 
 .main_p:hover img {
   transform: scale(1.5);
+}
+textarea{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  color: brown;
+  border: none;
 }
