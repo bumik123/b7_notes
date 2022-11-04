@@ -31,7 +31,7 @@
         <center><img src="obj_crea.png" alt="object_creation" height="40%" width="40%"></center>
         <p><b>Operator:</b>It will create random memory space into the <b>Heap Memory.</b><br><b>Constructor:-</b>It will initialize all the non-static member's into <b>Heap Memory</b></p>
         <hr>
-        <textarea name="example" cols="33" rows="16">
+        <textarea name="example" cols="33" rows="16" disabled>
 Exa:-
 class Sample 
   {
@@ -47,6 +47,29 @@ class Sample
           }
   }
                     </textarea>
+    <hr>
+    <h2>Real Time Example of Non-Static</h2>
+    <p><img src="dot-23857.png" alt="dot_img" height="15">Sanjay and Geeta joined Qspider and they started with Java, in the first mock Sanjau got mock Rating 2 and geeta got mock rating 1.Sanju was fyrstrated and he met his friend, his friend gave a beautiful idea i.e study hard whole night and take remock.Next day Sanjay took remock and got mock rating 1.<br>=>WAP to display Sanjay and Geeta's mock rating.</p>
+    <textarea name="non_stat_exa" id="" cols="33" rows="20" disabled>class Student
+      {
+        static String ins_name="QSpider";
+        int Mock;
+        public static void main(String[] args)
+        {
+          Student S1 = new Student(); //Geeta
+          S1.Mock = 1;
+          System.out.println(S1.Mock);
+          Student S2 = new Student();//Sanju
+          S2.Mock = 2;
+          System.out.println(S2.Mock);
+          /*After Remock*/
+          S2.Mock = 1;//Sanjay reinitialize
+          System.out.println(S2.Mock);
+        }
+      }
+    </textarea>
+    <br>
+    &nbsp;<img src="jvm_dia_real_time.png" alt="real_time_exam" height="30%" width="30%">
     </main>
     <footer style="color: white;">
         <hr>
