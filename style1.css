@@ -1,0 +1,15 @@
+nav ul{
+   display: flex; 
+   align-items: center;
+   background-color: black;
+   color: white;
+}
+nav img{
+    margin: 0;
+    padding: 0;
+    height: 69px;
+    border-radius: 100px;
+}
+nav li{
+    text-decoration: none;
+}
